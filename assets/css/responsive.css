@@ -1,0 +1,29 @@
+/* ===========================
+   404 PAGE
+=========================== */
+
+.error-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+.error-page h1{
+    font-size:8rem;
+    color:var(--primary);
+    margin-bottom:10px;
+}
+
+.error-page h2{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.error-page p{
+    color:var(--gray);
+    margin-bottom:35px;
+    max-width:500px;
+}

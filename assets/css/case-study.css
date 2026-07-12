@@ -1,0 +1,268 @@
+/* =========================
+   CASE STUDY HERO
+========================= */
+
+.case-hero{
+    padding:180px 0 80px;
+}
+
+.case-tag{
+    display:inline-block;
+    padding:10px 20px;
+    border-radius:50px;
+    background:#EEF2FF;
+    color:var(--primary);
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.case-hero h1{
+    font-size:4rem;
+    margin-bottom:25px;
+}
+
+.case-intro{
+    max-width:850px;
+    font-size:1.15rem;
+    line-height:1.9;
+    color:var(--gray);
+}
+
+/* =========================
+   PROJECT OVERVIEW
+========================= */
+
+.project-overview{
+    padding-bottom:80px;
+}
+
+.overview-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.overview-grid div{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.overview-grid small{
+    color:var(--gray);
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.overview-grid h5{
+    margin-top:12px;
+}
+/* =========================
+   CONTENT SECTIONS
+========================= */
+
+.case-section{
+    padding:90px 0;
+}
+
+.case-section.light{
+    background:#F8FAFC;
+}
+
+.case-section h2{
+    margin-bottom:25px;
+    font-size:2.4rem;
+}
+
+.case-section p{
+    color:var(--gray);
+    line-height:1.9;
+    max-width:900px;
+}
+/* =========================
+   GALLERY
+========================= */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    gap:30px;
+    margin-top:45px;
+}
+
+.gallery-grid img{
+    width:100%;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
+.gallery-grid img:hover{
+    transform:translateY(-8px) scale(1.02);
+}
+/* =========================
+   FEATURES
+========================= */
+.feature-card{
+    background:#fff;
+    padding:40px;
+    border-radius:22px;
+    transition:.35s;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 25px 50px rgba(79,70,229,.12);
+}
+
+.next-project{
+    padding:120px 0;
+}
+
+.next-card{
+    max-width:750px;
+    margin:auto;
+    background:linear-gradient(135deg,#4F46E5,#8B5CF6);
+    color:white;
+    padding:70px;
+    border-radius:28px;
+    text-align:center;
+}
+
+.next-card small{
+    letter-spacing:2px;
+    opacity:.8;
+}
+
+.next-card h2{
+    margin:20px 0;
+    font-size:3rem;
+}
+
+.next-card p{
+    max-width:520px;
+    margin:0 auto 35px;
+    line-height:1.8;
+}
+
+.next-card .btn-primary-custom{
+    background:white;
+    color:#4F46E5;
+}
+/* =========================
+   DARK MODE
+========================= */
+
+.dark-mode .case-section.light,
+.dark-mode .project-overview{
+    background:#111827;
+}
+
+.dark-mode .overview-grid div,
+.dark-mode .feature-card{
+    background:#1F2937;
+}
+
+.dark-mode .case-section p,
+.dark-mode .case-intro,
+.dark-mode .gallery-text,
+.dark-mode .overview-grid small{
+    color:#CBD5E1;
+}
+
+.dark-mode .case-section h2,
+.dark-mode .overview-grid h5,
+.dark-mode .feature-card h4{
+    color:#fff;
+}
+
+.dark-mode .gallery-grid img{
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+/* ==========================
+   PROJECT DEMO
+========================== */
+
+.project-demo{
+
+    padding:100px 0;
+
+}
+
+.demo-card{
+
+    max-width:900px;
+    width:100%;
+    margin:0 auto;
+    background:linear-gradient(135deg,#4F46E5,#8B5CF6);
+    border-radius:30px;
+    padding:70px 50px;
+    text-align:center;
+    color:white;
+    box-shadow:0 25px 60px rgba(79,70,229,.25);
+
+}
+
+.demo-card h2{
+
+    margin:18px 0;
+
+    font-size:2.6rem;
+
+}
+
+.demo-card p{
+
+    max-width:650px;
+
+    margin:20px auto;
+
+    line-height:1.8;
+
+    opacity:.95;
+
+}
+
+.demo-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+
+    flex-wrap:wrap;
+
+}
+
+.demo-card .btn-primary-custom{
+
+    background:white;
+
+    color:#4F46E5;
+
+}
+
+.demo-card .btn-primary-custom:hover{
+
+    background:#EEF2FF;
+
+}
+
+.demo-card .btn-secondary-custom{
+
+    border:2px solid white;
+
+    color:white;
+
+}
+
+.demo-card .btn-secondary-custom:hover{
+
+    background:white;
+
+    color:#4F46E5;
+
+}
